@@ -10,9 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var label: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(NSLocalizedString("key", comment: ""))
+
+        label.text = "語言".localize()
         // Do any additional setup after loading the view.
     }
 

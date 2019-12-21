@@ -12,6 +12,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        print(NSLocalizedString("key", comment: ""))
         // Do any additional setup after loading the view.
     }
 
